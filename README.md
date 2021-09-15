@@ -1,0 +1,1 @@
+This is just a cookiecutter for my cogs since I don't wanna rewrite the same things over and over again

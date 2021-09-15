@@ -1,0 +1,19 @@
+{% set authors = cookiecutter.authors.split(";") -%}
+{% set tags = cookiecutter.tags.split() -%}
+{
+    "name": "{{ cookiecutter.cog_name }}",
+    "short": "{{ cookiecutter.short }}",
+    "description": "{{ cookiecutter.description }}",
+    "end_user_data_statement": "{{ cookiecutter.end_user_data_statement }}",
+    {% if cookiecutter.install_msg -%}
+    "install_msg": "{{ cookiecutter.install_msg }}",
+    {% endif -%}
+    "author": {{ authors | map('trim') | list | jsonify | indent }},
+    "required_cogs": {},
+    "requirements": [],
+    "tags": {{ tags | jsonify | indent }},
+    "min_bot_version": "3.3.10",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}

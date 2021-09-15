@@ -1,0 +1,11 @@
+{
+    "package_name": null,
+    "cog_name": null,
+    "conf_id": null,
+    "short": "A short description of the cog",
+    "description": "A long description of the cog",
+    "install_msg": "",
+    "end_user_data_statement": "This cog does not store end user data.",
+    "authors": "Jojo#7791",
+    "tags": ""
+}
