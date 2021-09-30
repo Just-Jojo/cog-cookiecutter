@@ -12,7 +12,7 @@
     "required_cogs": {},
     "requirements": [],
     "tags": {{ tags | jsonify | indent }},
-    "min_bot_version": "3.3.10",
+    "min_bot_version": "3.4.10",
     "hidden": false,
     "disabled": false,
     "type": "COG"
